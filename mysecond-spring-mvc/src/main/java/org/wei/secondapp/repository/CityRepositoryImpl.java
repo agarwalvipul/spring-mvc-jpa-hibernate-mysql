@@ -31,12 +31,20 @@ implements CityRepository {
 	EntityManager em;
 	
 	
-//	@Autowired
+	//@Autowired
+	
 //	public CityRepositoryImpl(EntityManagerFactory  emf ) {
 //		
 //		super(City.class, emf.createEntityManager());
 //		em=emf.createEntityManager();
 //		// TODO Auto-generated constructor stub
+//	}
+	
+//	public CityRepositoryImpl(EntityManager  em ) {
+//		
+//		super(City.class, em);
+//		this.em=em;
+//		
 //	}
 
 	@Override
