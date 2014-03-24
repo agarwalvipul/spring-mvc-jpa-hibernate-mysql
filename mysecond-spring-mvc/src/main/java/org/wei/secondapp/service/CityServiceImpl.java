@@ -23,16 +23,16 @@ public class CityServiceImpl implements CityService {
 	//@Autowired
 	private CityRepository cityRepository;
 	
-	private EntityManagerFactory emf;
-	@PersistenceUnit
-	public void setEntityManagerFactory(EntityManagerFactory emf) {
-	this.emf = emf;
-	}
-	
-	EntityManager em;
-	
-	@PersistenceContext
-	public void setEntityManager(EntityManager em) { this.em = em; }
+//	private EntityManagerFactory emf;
+//	@PersistenceUnit
+//	public void setEntityManagerFactory(EntityManagerFactory emf) {
+//	this.emf = emf;
+//	}
+//	
+//	EntityManager em;
+//	
+//	@PersistenceContext
+//	public void setEntityManager(EntityManager em) { this.em = em; }
 
 	@Override
 	//@Transactional
