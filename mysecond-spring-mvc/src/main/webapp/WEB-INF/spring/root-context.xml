@@ -17,7 +17,7 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 	<!-- <tx:annotation-driven transaction-manager="transactionManager" /> -->
 	<bean
 		class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
-	<!-- Root Context: defines shared resources visible to all other web components my branch -->
+	<!-- Root Context: defines shared resources visible to all other web components my branch mast branch-->
 	<context:annotation-config /> 
 
 	<context:component-scan
