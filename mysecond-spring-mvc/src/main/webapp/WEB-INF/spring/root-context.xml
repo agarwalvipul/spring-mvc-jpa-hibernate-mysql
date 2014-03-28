@@ -18,7 +18,7 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 	<bean
 		class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
 
-	<!-- Root Context: defines shared resources visible to all other web components my branch update2 -->
+	<!-- Root Context: defines shared resources visible to all other web components master branch update2 -->
 	<context:annotation-config /> 
 
 	<context:component-scan
